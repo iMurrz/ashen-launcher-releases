@@ -1,21 +1,27 @@
 # Ashen Launcher
 
-Windows downloads and the signed automatic update feed for Ashen Launcher.
+Windows Minecraft launcher with an original Ashen client interface and the full Murful resource pack.
 
-## Install
+## Install or update
 
-Open the [latest release](https://github.com/iMurrz/ashen-launcher-releases/releases/latest) and download its `Ashen-Launcher-Setup-*.exe` installer.
+Download the installer from [the latest release](https://github.com/iMurrz/ashen-launcher-releases/releases/latest). Launchers connected to this repository can use **Update Launcher** to check, download and restart into a verified update. Older builds without the configured feed need a manual installer update once.
 
-Install version 0.2.11 or newer once to connect the update feed. Earlier builds need that first update installed manually. Then use **Update Launcher → Check for Updates** inside Ashen. When a new version is ready, choose **Restart & Update**.
+## Version 0.3.0
 
-## Included features
+- Mod Manager: local Fabric imports, search, filters, reversible personal mod toggles, file fingerprints and common compatibility notices.
+- Launch History: the last 100 launches, including session length and exit status when the launcher remains open.
+- Setup Studio: performance presets, storage checks and support-report export.
+- Separate instances, favourites, testing copies and verified recovery snapshots.
+- Modrinth browsing for mods, resource packs and shaders; Ctrl+K quick actions.
+- Original Ashen menus, HUD and utility modules; full Murful fonts and item, armor and tool textures.
+- All custom cosmetics removed.
 
-- Minecraft Java 1.21.11 with Ashen Client and a managed performance pack.
-- Separate instances with search, favourites, renaming and mod-testing copies.
-- Setup Studio with presets, configuration checks and storage breakdowns.
-- Recovery Center with named restore points and restoration into a separate instance.
-- Searchable quick actions with Ctrl+K.
+Minecraft is pinned to 1.21.11 with Fabric. Compatibility notices do not guarantee every third-party mod combination.
 
-Updates include a SHA-512 download hash and an Ed25519 signature verified by Ashen before installation.
+## Release integrity
 
-Unofficial community software. Not affiliated with Mojang or Microsoft.
+Each release includes an installer, blockmap, update feed and Ashen Ed25519 signature. The launcher verifies the update download hash and signature before offering installation. This signature is separate from Windows publisher certificates. This repository distributes releases only; it does not contain account data, launcher source or private signing keys.
+
+Long-term support requires continued maintenance as Minecraft, Java, Electron, Windows and Microsoft sign-in evolve.
+
+Unofficial community software, not affiliated with Mojang or Microsoft.
