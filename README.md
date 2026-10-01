@@ -4,18 +4,19 @@ Sloth Client is a Windows Minecraft launcher and in-game client with original pi
 
 ## Download
 
-**[Download Sloth Client 0.0.3 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.3/Sloth-Client-Setup-0.0.3.exe)**
+**[Download Sloth Client 0.0.5 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.5/Sloth-Client-Setup-0.0.5.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.3)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.5)
 
-**Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install manually; this build has no automatic-update feed. The launcher now discovers these releases and offers an Open Sloth download button. Existing builds with failing update checks need one manual install of this fix.
+**Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
 Close Minecraft and the client, and back up important instances before installation. Current releases use the full Sloth identity: native mod/package identifiers, application ID, resource namespace and profile folders. Other computers require manual migration of previous profiles. Installation may appear as a separate entry because the application ID has changed. Preserve backups before removing previous installations.
 
 ## Features
 
-- Sloth Client launcher and native menus, editable HUDs and utility settings.
+- Sloth Client launcher and native menus, editable HUDs and utility settings. Home banner uses the original pink Sloth logo and Sloth wording.
 - Mod and instance management, resource-pack support, launch history and recovery tools.
+- ViaFabricPlus is included and on by default for supported server versions; select a protocol in Multiplayer.
 - Local saved friends, favorites and current-server activity.
 - Optional Minecraft Services friends lookup; real-account operation remains unverified.
 - CurseForge website browsing and pack ZIP inspection. API downloads require an approved API key and compatible pack versions.
