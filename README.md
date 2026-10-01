@@ -4,9 +4,9 @@ Sloth Client is a Windows Minecraft launcher and in-game client with original pi
 
 ## Download
 
-**[Download Sloth Client 0.0.5 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.5/Sloth-Client-Setup-0.0.5.exe)**
+**[Download Sloth Client 0.0.6 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.6/Sloth-Client-Setup-0.0.6.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.5)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.6)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
