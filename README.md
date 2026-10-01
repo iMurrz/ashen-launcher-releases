@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.15 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.15/Sloth-Client-Setup-0.0.15.exe)**
+**[Download Sloth Client 0.0.16 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.16/Sloth-Client-Setup-0.0.16.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.15)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.16)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -26,6 +26,7 @@ This release fixes a startup import fault, restores Toolbox initialization and i
 - World Manager removed; Minecraft worlds and existing backups are preserved.
 
 - Custom Crosshair can match the ore you look at, including deepslate variants and optional mineral blocks. Enable it in Right Shift > Visual > Custom Crosshair.
+- Permanent modern Sloth title screen and themed Minecraft menus; profile imports and resets cannot disable core appearance.
 - Sloth Client launcher and native menus, editable HUDs and utility settings. Home banner uses the original pink Sloth logo and Sloth wording.
 - Mod and instance management, resource-pack support, launch history and recovery tools.
 - ViaFabricPlus is included and on by default for supported server versions; select a protocol in Multiplayer.
