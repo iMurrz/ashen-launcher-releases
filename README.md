@@ -4,13 +4,19 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.9 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.9/Sloth-Client-Setup-0.0.9.exe)**
+**[Download Sloth Client 0.0.10 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.10/Sloth-Client-Setup-0.0.10.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.9)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.10)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
 Close Minecraft before installing. This release preserves the existing Sloth installer identity and keeps your accounts, worlds and profiles. Back up important instances before changing versions.
+
+## Resource packs and review
+
+No personal texture pack is included or enabled automatically. Existing Murful copies and selections in Sloth instances are removed on startup with Minecraft closed; unrelated packs are preserved. Older installers that included the pack are retired after this release is verified.
+
+This release fixes a startup import fault, restores Toolbox initialization and improves enlarged text layouts. All 21 launcher pages and 33 offline in-game screens were captured during review. Authenticated services and live server gameplay remain separate verification work.
 
 ## Features
 
