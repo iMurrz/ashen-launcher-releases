@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.11 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.11/Sloth-Client-Setup-0.0.11.exe)**
+**[Download Sloth Client 0.0.12 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.12/Sloth-Client-Setup-0.0.12.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.11)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.12)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -16,12 +16,13 @@ Close Minecraft before installing. This release preserves the existing Sloth ins
 
 No personal texture pack is included or enabled automatically. Existing Murful copies and selections in Sloth instances are removed on startup with Minecraft closed; unrelated packs are preserved. Older installers that included the pack are retired after this release is verified.
 
-This release fixes a startup import fault, restores Toolbox initialization and improves enlarged text layouts. All 21 launcher pages and 33 offline in-game screens were captured during review. Authenticated services and live server gameplay remain separate verification work.
+This release fixes a startup import fault, restores Toolbox initialization and improves enlarged text layouts. The 0.0.10 review captured all 21 launcher pages and 33 offline in-game screens. The 0.0.12 navigation change has not received a new live UI review. Authenticated services and live server gameplay remain separate verification work.
 
 ## Features
 
 - Download Center: Activity, Discover Mods, Mod Manager, Modpacks and Saved Projects.
 - Toolbox: Overview, Game Care, Trust Center and Recovery.
+- Client Studio: Client Tools and Setup Studio tabs, including presets, setup checks, storage and support reports.
 - World Manager removed; Minecraft worlds and existing backups are preserved.
 
 - Sloth Client launcher and native menus, editable HUDs and utility settings. Home banner uses the original pink Sloth logo and Sloth wording.
