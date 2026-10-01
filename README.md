@@ -4,13 +4,13 @@ Sloth Client is a Windows Minecraft launcher and in-game client with original pi
 
 ## Download
 
-**[Download Sloth Client 0.0.2 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.2/Sloth-Client-Setup-0.0.2.exe)**
+**[Download Sloth Client 0.0.3 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.3/Sloth-Client-Setup-0.0.3.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.2)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.3)
 
-**Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install manually; this build has no automatic-update feed.
+**Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install manually; this build has no automatic-update feed. The launcher now discovers these releases and offers an Open Sloth download button. Existing builds with failing update checks need one manual install of this fix.
 
-Close Minecraft and the client, and back up important instances before installation. Version0.0.2 introduces the full Sloth identity: native mod/package identifiers, application ID, resource namespace and profile folders. Other computers require manual migration of previous profiles. Installation may appear as a separate entry because the application ID has changed. Preserve backups before removing previous installations.
+Close Minecraft and the client, and back up important instances before installation. Current releases use the full Sloth identity: native mod/package identifiers, application ID, resource namespace and profile folders. Other computers require manual migration of previous profiles. Installation may appear as a separate entry because the application ID has changed. Preserve backups before removing previous installations.
 
 ## Features
 
