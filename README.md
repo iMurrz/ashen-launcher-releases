@@ -1,30 +1,31 @@
-# Ashen Launcher
+# Sloth Client
 
-Windows Minecraft launcher with an original Ashen client interface and the full Murful resource pack.
+Sloth Client is the successor to Ashen Client: a Windows Minecraft launcher and in-game client with original pink sloth artwork.
 
-## Install or update
+## Download
 
-Download the installer from [the latest release](https://github.com/iMurrz/ashen-launcher-releases/releases/latest). Launchers connected to this repository can use **Update Launcher** to check, download and restart into a verified update. Older builds without the configured feed need a manual installer update once.
+**[Download Sloth Client 0.0.1 for Windows](https://github.com/iMurrz/ashen-launcher-releases/releases/download/v0.0.1/Sloth-Client-Setup-0.0.1.exe)**
 
-## Current features
+[Release notes and integrity signatures](https://github.com/iMurrz/ashen-launcher-releases/releases/tag/v0.0.1)
 
-- CurseForge Modpacks: official website browsing, optional approved API-key search/downloads, ZIP requirement previews and separate Minecraft 1.21.11 Fabric pack instances. Unsupported loaders/versions need another launcher.
-- Mod Manager: local Fabric imports, search, filters, reversible personal mod toggles, file fingerprints and common compatibility notices.
-- Launch History: the last 100 launches, including session length and exit status when the launcher remains open.
-- Setup Studio: performance presets, storage checks and support-report export.
-- Separate instances, favourites, testing copies and verified recovery snapshots.
-- Modrinth browsing for mods, resource packs and shaders; Ctrl+K quick actions.
-- Original Ashen menus, HUD and utility modules; full Murful fonts and item, armor and tool textures.
-- All custom cosmetics removed.
+**Unsigned development release:** a trusted Windows publisher certificate is not available yet. Windows may show an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher signing. This version requires manual installation; it is not offered through an automatic-update feed.
 
-Minecraft is pinned to 1.21.11 with Fabric. Compatibility notices do not guarantee every third-party mod combination.
+Back up important instances and close Minecraft and the client before installation. Moving from Ashen0.13.x to Sloth0.0.1 requires a one-time manual install because the new version number is lower. Historical Ashen releases remain available under Releases.
+
+## Included features
+
+- Sloth launcher branding, original artwork and in-game menus.
+- Editable HUDs, utility modules and settings.
+- Instance management, mod imports and browsing, resource-pack support, launch history and recovery tools.
+- Local saved friends, favorites and current-server activity. Optional Minecraft Services friends lookup remains unverified with a real account.
+- CurseForge website browsing and ZIP review; API downloads require an approved API key and compatible pack versions.
+
+Minecraft is pinned to1.21.11 with Fabric. Third-party mod compatibility, live gameplay, installation and authenticated service flows have not all been verified. Default server address is localhost; configure your server address as needed.
 
 ## Release integrity
 
-Each release includes an installer, blockmap, update feed and Ashen Ed25519 signature. The launcher verifies the update download hash and signature before offering installation. This signature is separate from Windows publisher certificates. This repository distributes releases only; it does not contain account data, launcher source or private signing keys.
+The installer and file inventory have detached Ed25519 signatures. Package/source comparison and inventory verification passed locally. Production automatic updates require trusted Windows publisher verification in addition to integrity signatures. Trusted signing, own Microsoft application registration and distribution/privacy reviews remain work in progress.
 
-Long-term support requires continued maintenance as Minecraft, Java, Electron, Windows and Microsoft sign-in evolve.
+This repository distributes compiled releases and documentation. Private development source, account data and private signing keys are not uploaded here.
 
-Unofficial community software, not affiliated with Mojang or Microsoft.
-
-CurseForge in-app features require an approved developer API key saved locally in the Modpacks section. Website browsing and ZIP review work without a key. Live authenticated CurseForge requests have not been verified without a supplied key. Ashen is not affiliated with CurseForge.
+Sloth Client is not an official Minecraft product and is not approved by or associated with Mojang, Microsoft or CurseForge.
