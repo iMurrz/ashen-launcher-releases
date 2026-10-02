@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.18 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.18/Sloth-Client-Setup-0.0.18.exe)**
+**[Download Sloth Client 0.0.19 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.19/Sloth-Client-Setup-0.0.19.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.18)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.19)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -20,7 +20,7 @@ This release fixes a startup import fault, restores Toolbox initialization and i
 
 ## Features
 
-- Optional Halloween launcher theme in Settings: a moving sharp-toothed Sloth grin, glowing eyes, corner webs, crawling spiders and drifting mist. Theme and animation choices are saved. Reduced motion takes priority; turning Halloween off restores your selected accent.
+- Optional Halloween launcher theme in Settings: a blinking sharp-toothed Sloth, corner webs, crawling spiders, flying bats, embers and layered fog. Choose Subtle, Haunted or Nightmare atmosphere intensity. Theme and animation choices are saved. Reduced motion takes priority; turning Halloween off restores your selected accent.
 
 - Download Center: Activity, Discover Mods, Mod Manager, Modpacks and Saved Projects.
 - Toolbox: Overview, Game Care, Trust Center and Recovery.
