@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.19 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.19/Sloth-Client-Setup-0.0.19.exe)**
+**[Download Sloth Client 0.0.20 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.20/Sloth-Client-Setup-0.0.20.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.19)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.20)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -19,6 +19,10 @@ No personal texture pack is included or enabled automatically. Existing Murful c
 This release fixes a startup import fault, restores Toolbox initialization and improves enlarged text layouts. The 0.0.10 review captured all 21 launcher pages and 33 offline in-game screens. The later navigation and control maintenance changes have not received a new live gameplay review. Authenticated services and live server gameplay remain separate verification work.
 
 ## Features
+
+- HUD grouping, overlap warnings, realistic armour previews, Crosshair Studio and a configurable hold-to-open quick wheel.
+- Select individual setup changes before applying presets, profiles, history restores or preference imports. In-game review includes Undo.
+- Accessibility setup reviews, server resource-pack display help, launch-readiness checks and clearer recovery scopes.
 
 - Optional Halloween launcher theme in Settings: a blinking sharp-toothed Sloth, corner webs, crawling spiders, flying bats, embers and layered fog. Choose Subtle, Haunted or Nightmare atmosphere intensity. Theme and animation choices are saved. Reduced motion takes priority; turning Halloween off restores your selected accent.
 
