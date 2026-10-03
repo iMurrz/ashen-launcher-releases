@@ -2,6 +2,12 @@
 
 Sloth Client is an independent Windows Minecraft launcher and in-game client with original pink sloth artwork. Choose your own worlds and multiplayer servers.
 
+## 0.0.30 everyday client assistance
+
+Reviewed HUD arrangement with Undo, shared-key filtering, clearer resource-pack guidance, startup checks with preserved-version recovery, unresolved mod dependency summaries, 150% text options and private support-report review. Storage and mod metadata start excluded from exports. No new recording feature.
+
+Native screen captures, isolated launcher UI checks, pure layout/diagnostic/startup checks, package inspection and Sloth artifact signatures passed. Live multiplayer, physical keyboard input and actual installer/rollback execution remain unverified. Windows trusted publisher signing remains pending.
+
 ## Gameplay efficiency
 
 The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom saves and a damaged-mod inspection crash. Fresh Sloth instances use Unlimited FPS, VSync off and minimized-only idle limiting; existing settings and modpacks are preserved. All nine performance mods are enabled by default. HUD and rendering efficiency changes apply automatically.
@@ -9,9 +15,9 @@ The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom
 
 ## Download
 
-**[Download Sloth Client 0.0.29 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.29/Sloth-Client-Setup-0.0.29.exe)**
+**[Download Sloth Client 0.0.30 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.30/Sloth-Client-Setup-0.0.30.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.29)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.30)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
