@@ -6,11 +6,15 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 Rendering hooks reuse module lookups; armor, potion and cooldown overlays share per-render samples. Inventory counts update at the client tick rate; ring geometry, clock text and HUD dimensions avoid repeated work. Input and compass movement remain frame-based. No graphics reduction or new performance presets. FPS gains have not been benchmarked.
 
+## Gameplay efficiency
+
+Rendering hooks reuse module lookups; armor, potion and cooldown overlays share per-render samples. Inventory counts update at the client tick rate; ring geometry, clock text and HUD dimensions avoid repeated work. Input and compass movement remain frame-based. No graphics reduction or new performance presets. FPS gains have not been benchmarked.
+
 ## Download
 
-**[Download Sloth Client 0.0.28 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.28/Sloth-Client-Setup-0.0.28.exe)**
+**[Download Sloth Client 0.0.29 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.29/Sloth-Client-Setup-0.0.29.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.28)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.29)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -22,7 +26,7 @@ No personal texture pack is included or enabled automatically. Existing Murful c
 
 The 0.0.21 reliability review included focused Undo and SVG motion checks, isolated launcher captures and five offline native menu captures. The 0.0.23 update received syntax/native build checks, isolated launcher visual review and package integrity checks. No new automated test suites, live multiplayer exercise or installer execution were performed for 0.0.23.
 
-The 0.0.28 performance update received syntax/native compilation and package/update integrity checks. No live FPS benchmark, automated test suites or installer execution were performed; no particular FPS gain is claimed.
+The 0.0.29 performance update received syntax/native compilation and package/update integrity checks. No live FPS benchmark, automated test suites or installer execution were performed; no particular FPS gain is claimed.
 
 ## Features
 
