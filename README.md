@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.22 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.22/Sloth-Client-Setup-0.0.22.exe)**
+**[Download Sloth Client 0.0.23 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.23/Sloth-Client-Setup-0.0.23.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.22)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.23)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -16,9 +16,15 @@ Close Minecraft before installing. This release preserves the existing Sloth ins
 
 No personal texture pack is included or enabled automatically. Existing Murful copies and selections in Sloth instances are removed on startup with Minecraft closed; unrelated packs are preserved. Older installers that included the pack are retired after this release is verified.
 
-This release fixes a startup import fault, restores Toolbox initialization and improves enlarged text layouts. The 0.0.10 review captured all 21 launcher pages and 33 offline in-game screens. 0.0.22 adds focused Undo checks, isolated launcher IPC/UI checks, eleven launcher screenshots, six SVG animation checks and five offline native menu captures with a passing mixin audit and normal exit. Authenticated services and live server gameplay remain separate verification work.
+The 0.0.21 reliability review included focused Undo and SVG motion checks, isolated launcher captures and five offline native menu captures. The current 0.0.23 update received syntax/native build checks, isolated launcher visual review and package integrity checks. No new automated test suites, live multiplayer exercise or installer execution were performed for 0.0.23.
 
 ## Features
+
+- Session Planner with reviewed Mining, PvP, Building and Casual setups, up to 30 saved local profiles per instance, inspectable proposals and guarded Undo.
+- Cancellable verified file/update downloads, dependency version/conflict advice and a local startup timeline.
+- Exact support-report preview with section selection before saving; nothing is uploaded automatically.
+- HUD aspect previews and spacing snaps, saved profile keybindings, optional crosshair context colours, passive Connection Health and active-pack reload controls.
+- Verify preserved previous-launcher files before opening recovery.
 
 - Safer preset Undo preserves unrelated settings and refuses to overwrite later conflicting edits. Setup reviews use readable labels and responsive controls.
 - HUD safe-zone guides, corrected group movement/resizing, compact Quick Wheel layouts and direct searchable shortcut rebinding.
