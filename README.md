@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.20 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.20/Sloth-Client-Setup-0.0.20.exe)**
+**[Download Sloth Client 0.0.21 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.21/Sloth-Client-Setup-0.0.21.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.20)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.21)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -16,9 +16,14 @@ Close Minecraft before installing. This release preserves the existing Sloth ins
 
 No personal texture pack is included or enabled automatically. Existing Murful copies and selections in Sloth instances are removed on startup with Minecraft closed; unrelated packs are preserved. Older installers that included the pack are retired after this release is verified.
 
-This release fixes a startup import fault, restores Toolbox initialization and improves enlarged text layouts. The 0.0.10 review captured all 21 launcher pages and 33 offline in-game screens. The later navigation and control maintenance changes have not received a new live gameplay review. Authenticated services and live server gameplay remain separate verification work.
+This release fixes a startup import fault, restores Toolbox initialization and improves enlarged text layouts. The 0.0.10 review captured all 21 launcher pages and 33 offline in-game screens. 0.0.21 adds focused Undo checks, isolated launcher IPC/UI checks, eleven launcher screenshots, six SVG animation checks and five offline native menu captures with a passing mixin audit and normal exit. Authenticated services and live server gameplay remain separate verification work.
 
 ## Features
+
+- Safer preset Undo preserves unrelated settings and refuses to overwrite later conflicting edits. Setup reviews use readable labels and responsive controls.
+- HUD safe-zone guides, corrected group movement/resizing, compact Quick Wheel layouts and direct searchable shortcut rebinding.
+- Resource-pack failure notices with classified guidance and a Game Log folder shortcut.
+- Optional Haunted/Nightmare jumpscares: six original animated creatures with moving jaws, eyes, bodies and spider legs, plus lunging entrances. Separate saved opt-in and cycling preview; suppressed during gameplay, dialogs, reduced motion and loss of focus.
 
 - HUD grouping, overlap warnings, realistic armour previews, Crosshair Studio and a configurable hold-to-open quick wheel.
 - Select individual setup changes before applying presets, profiles, history restores or preference imports. In-game review includes Undo.
