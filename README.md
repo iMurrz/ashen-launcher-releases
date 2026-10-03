@@ -2,6 +2,10 @@
 
 Sloth Client is an independent Windows Minecraft launcher and in-game client with original pink sloth artwork. Choose your own worlds and multiplayer servers.
 
+## 0.0.31 safer everyday edits
+
+Selected-HUD reset with Undo, Ctrl+A selection, overlap counts with reused editor measurements, consistent mod dependency warnings in readiness and Health, and a read-only saved-setup comparison that excludes accounts and custom chat text.
+
 ## 0.0.30 everyday client assistance
 
 Reviewed HUD arrangement with Undo, shared-key filtering, clearer resource-pack guidance, startup checks with preserved-version recovery, unresolved mod dependency summaries, 150% text options and private support-report review. Storage and mod metadata start excluded from exports. No new recording feature.
@@ -15,9 +19,9 @@ The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom
 
 ## Download
 
-**[Download Sloth Client 0.0.30 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.30/Sloth-Client-Setup-0.0.30.exe)**
+**[Download Sloth Client 0.0.31 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.31/Sloth-Client-Setup-0.0.31.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.30)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.31)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
