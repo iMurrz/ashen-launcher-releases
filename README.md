@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.21 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.21/Sloth-Client-Setup-0.0.21.exe)**
+**[Download Sloth Client 0.0.22 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.22/Sloth-Client-Setup-0.0.22.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.21)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.22)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -16,7 +16,7 @@ Close Minecraft before installing. This release preserves the existing Sloth ins
 
 No personal texture pack is included or enabled automatically. Existing Murful copies and selections in Sloth instances are removed on startup with Minecraft closed; unrelated packs are preserved. Older installers that included the pack are retired after this release is verified.
 
-This release fixes a startup import fault, restores Toolbox initialization and improves enlarged text layouts. The 0.0.10 review captured all 21 launcher pages and 33 offline in-game screens. 0.0.21 adds focused Undo checks, isolated launcher IPC/UI checks, eleven launcher screenshots, six SVG animation checks and five offline native menu captures with a passing mixin audit and normal exit. Authenticated services and live server gameplay remain separate verification work.
+This release fixes a startup import fault, restores Toolbox initialization and improves enlarged text layouts. The 0.0.10 review captured all 21 launcher pages and 33 offline in-game screens. 0.0.22 adds focused Undo checks, isolated launcher IPC/UI checks, eleven launcher screenshots, six SVG animation checks and five offline native menu captures with a passing mixin audit and normal exit. Authenticated services and live server gameplay remain separate verification work.
 
 ## Features
 
@@ -58,3 +58,9 @@ Source checks, native compilation, package/source comparison, resource-pack/nati
 This repository distributes compiled artifacts and documentation. Private development source, account data and private signing keys are not uploaded.
 
 Sloth Client is not an official Minecraft product and is not approved by or associated with Mojang, Microsoft or CurseForge.
+
+## 0.0.22 motion and Haunted atmosphere
+
+Lighter bottom-edge mist, smoother page and dialog movement, pointer-responsive Sloth artwork, and more detailed animated creatures with staged reveals and a second advance. Halloween effects and jumpscares remain optional; reduced motion takes priority.
+
+This update received syntax and native build checks, isolated launcher visual review, and release-package integrity verification. No new automated test suites or live multiplayer checks were performed. Windows trusted-publisher signing remains pending.
