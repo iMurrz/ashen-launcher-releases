@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.24 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.24/Sloth-Client-Setup-0.0.24.exe)**
+**[Download Sloth Client 0.0.25 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.25/Sloth-Client-Setup-0.0.25.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.24)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.25)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -20,7 +20,11 @@ The 0.0.21 reliability review included focused Undo and SVG motion checks, isola
 
 The 0.0.24 update received launcher syntax checks, native compilation and package/update integrity checks. Live game interaction and installer execution were not performed.
 
+The 0.0.25 HUD alignment update received syntax, native compilation and package/update integrity checks. Live game interaction and installer execution were not performed.
+
 ## Features
+
+- Nine HUD screen-position presets with adjustable edge spacing, plus a 1 px / 10 px movement toggle. Presets prepare fields for explicit Apply.
 
 - Manual HUD placement: typed pixel coordinates and size, one-pixel nudges, centering, defaults, Revert and explicit Apply; integrated with HUD editor Undo.
 - Minecraft launch repair for the uninitialized startup-timeline status error.
