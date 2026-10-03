@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.26 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.26/Sloth-Client-Setup-0.0.26.exe)**
+**[Download Sloth Client 0.0.27 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.27/Sloth-Client-Setup-0.0.27.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.26)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.27)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -18,9 +18,13 @@ No personal texture pack is included or enabled automatically. Existing Murful c
 
 The 0.0.21 reliability review included focused Undo and SVG motion checks, isolated launcher captures and five offline native menu captures. The 0.0.23 update received syntax/native build checks, isolated launcher visual review and package integrity checks. No new automated test suites, live multiplayer exercise or installer execution were performed for 0.0.23.
 
-The 0.0.26 presentation update received launcher syntax checks, native compilation and package/update integrity checks. Live gameplay verification and installer execution were not performed.
+The 0.0.27 performance update received syntax/native compilation and package/update integrity checks. No live FPS benchmark, automated test suites or installer execution were performed; no particular FPS gain is claimed.
 
 ## Features
+
+- Always-on text-HUD sample/width reuse within each render, cached HUD registry and clock formatters, lighter coordinate formatting and once-per-frame Focus mode evaluation, with no refresh-rate reduction.
+- Launcher decoration animations pause during gameplay and while hidden/unfocused.
+- Backed-up managed mod cleanup reconciles obsolete renderer dependency builds while preserving tracked player imports.
 
 - In-game Appearance Studio: smooth Sloth HUD typography or resource-pack font, live sample, menu density, motion pace and reviewed Glass/Focused/Minimal HUD styles.
 - Matching HUD font measurements across editing and previews, visually eased sliders and clearer keyboard focus. Chat, Tab and server resource-pack glyphs keep their own rendering.
