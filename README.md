@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.25 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.25/Sloth-Client-Setup-0.0.25.exe)**
+**[Download Sloth Client 0.0.26 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.26/Sloth-Client-Setup-0.0.26.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.25)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.26)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -18,11 +18,12 @@ No personal texture pack is included or enabled automatically. Existing Murful c
 
 The 0.0.21 reliability review included focused Undo and SVG motion checks, isolated launcher captures and five offline native menu captures. The 0.0.23 update received syntax/native build checks, isolated launcher visual review and package integrity checks. No new automated test suites, live multiplayer exercise or installer execution were performed for 0.0.23.
 
-The 0.0.24 update received launcher syntax checks, native compilation and package/update integrity checks. Live game interaction and installer execution were not performed.
-
-The 0.0.25 HUD alignment update received syntax, native compilation and package/update integrity checks. Live game interaction and installer execution were not performed.
+The 0.0.26 presentation update received launcher syntax checks, native compilation and package/update integrity checks. Live gameplay verification and installer execution were not performed.
 
 ## Features
+
+- In-game Appearance Studio: smooth Sloth HUD typography or resource-pack font, live sample, menu density, motion pace and reviewed Glass/Focused/Minimal HUD styles.
+- Matching HUD font measurements across editing and previews, visually eased sliders and clearer keyboard focus. Chat, Tab and server resource-pack glyphs keep their own rendering.
 
 - Nine HUD screen-position presets with adjustable edge spacing, plus a 1 px / 10 px movement toggle. Presets prepare fields for explicit Apply.
 
