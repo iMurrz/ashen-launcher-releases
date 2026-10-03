@@ -2,6 +2,10 @@
 
 Sloth Client is an independent Windows Minecraft launcher and in-game client with original pink sloth artwork. Choose your own worlds and multiplayer servers.
 
+## 0.0.32 faster Freelook
+
+Freelook starts at 1.25x camera movement speed, with a 0.25x–3x Look speed slider. Normal player aiming sensitivity, Left Alt, pitch limits, inversion and the return animation remain unchanged. Synthetic keyboard dispatch and world/held-item FOV checks passed with the selected managed mod combination and local add-ons; physical keyboard and live multiplayer remain separate checks.
+
 ## 0.0.31 safer everyday edits
 
 Selected-HUD reset with Undo, Ctrl+A selection, overlap counts with reused editor measurements, consistent mod dependency warnings in readiness and Health, and a read-only saved-setup comparison that excludes accounts and custom chat text.
@@ -19,9 +23,9 @@ The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom
 
 ## Download
 
-**[Download Sloth Client 0.0.31 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.31/Sloth-Client-Setup-0.0.31.exe)**
+**[Download Sloth Client 0.0.32 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.32/Sloth-Client-Setup-0.0.32.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.31)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.32)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
