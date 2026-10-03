@@ -4,9 +4,9 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Download
 
-**[Download Sloth Client 0.0.23 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.23/Sloth-Client-Setup-0.0.23.exe)**
+**[Download Sloth Client 0.0.24 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.24/Sloth-Client-Setup-0.0.24.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.23)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.24)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -16,9 +16,14 @@ Close Minecraft before installing. This release preserves the existing Sloth ins
 
 No personal texture pack is included or enabled automatically. Existing Murful copies and selections in Sloth instances are removed on startup with Minecraft closed; unrelated packs are preserved. Older installers that included the pack are retired after this release is verified.
 
-The 0.0.21 reliability review included focused Undo and SVG motion checks, isolated launcher captures and five offline native menu captures. The current 0.0.23 update received syntax/native build checks, isolated launcher visual review and package integrity checks. No new automated test suites, live multiplayer exercise or installer execution were performed for 0.0.23.
+The 0.0.21 reliability review included focused Undo and SVG motion checks, isolated launcher captures and five offline native menu captures. The 0.0.23 update received syntax/native build checks, isolated launcher visual review and package integrity checks. No new automated test suites, live multiplayer exercise or installer execution were performed for 0.0.23.
+
+The 0.0.24 update received launcher syntax checks, native compilation and package/update integrity checks. Live game interaction and installer execution were not performed.
 
 ## Features
+
+- Manual HUD placement: typed pixel coordinates and size, one-pixel nudges, centering, defaults, Revert and explicit Apply; integrated with HUD editor Undo.
+- Minecraft launch repair for the uninitialized startup-timeline status error.
 
 - Session Planner with reviewed Mining, PvP, Building and Casual setups, up to 30 saved local profiles per instance, inspectable proposals and guarded Undo.
 - Cancellable verified file/update downloads, dependency version/conflict advice and a local startup timeline.
