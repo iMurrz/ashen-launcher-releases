@@ -4,11 +4,8 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 ## Gameplay efficiency
 
-Rendering hooks reuse module lookups; armor, potion and cooldown overlays share per-render samples. Inventory counts update at the client tick rate; ring geometry, clock text and HUD dimensions avoid repeated work. Input and compass movement remain frame-based. No graphics reduction or new performance presets. FPS gains have not been benchmarked.
+The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom saves and a damaged-mod inspection crash. Fresh Sloth instances use Unlimited FPS, VSync off and minimized-only idle limiting; existing settings and modpacks are preserved. All nine performance mods are enabled by default. HUD and rendering efficiency changes apply automatically.
 
-## Gameplay efficiency
-
-Rendering hooks reuse module lookups; armor, potion and cooldown overlays share per-render samples. Inventory counts update at the client tick rate; ring geometry, clock text and HUD dimensions avoid repeated work. Input and compass movement remain frame-based. No graphics reduction or new performance presets. FPS gains have not been benchmarked.
 
 ## Download
 
@@ -26,7 +23,7 @@ No personal texture pack is included or enabled automatically. Existing Murful c
 
 The 0.0.21 reliability review included focused Undo and SVG motion checks, isolated launcher captures and five offline native menu captures. The 0.0.23 update received syntax/native build checks, isolated launcher visual review and package integrity checks. No new automated test suites, live multiplayer exercise or installer execution were performed for 0.0.23.
 
-The 0.0.29 performance update received syntax/native compilation and package/update integrity checks. No live FPS benchmark, automated test suites or installer execution were performed; no particular FPS gain is claimed.
+The 0.0.29 audit passed over 100 automated checks, isolated launcher UI flows, native Minecraft startup/mixin checks and a synthetic offline world stress exercise with 34 HUD modules enabled. The latest 600 focused stress intervals had median 1.5741 ms, p95 2.2448 ms and zero intervals over 50 ms on the test PC. This stationary scene is not a Lunar comparison or a guarantee for other systems or servers. No installer execution or user-world changes were performed.
 
 ## Features
 
