@@ -6,9 +6,9 @@ GitHub checks published installer, feed and inventory signatures and download ha
 
 Sloth Client is an independent Windows Minecraft launcher and in-game client with original pink sloth artwork. Choose your own worlds and multiplayer servers.
 
-## 0.0.39 Minecraft Halloween
+## 0.0.40 Halloween wildlife
 
-Original voxel Halloween decorations replace generic spiders, bats and scare faces: a witch-hat Ghast, Creeper jack-o-lantern, pumpkin-carrying Enderman and pumpkin-hat skeleton. Optional scares use the new art. Halloween toggles and accessibility settings are respected. Compact Modrinth browsing and settings/file imports remain available.
+A compact Sloth splash stays visible for at least 6 seconds at startup, then transitions to the ready launcher. The Sloth avatar moves left toward the title. Corner cobwebs, a crawling voxel spider and two blocky bats bring Minecraft-style Halloween movement to the Play artwork. Reduced motion and animation settings remain respected. The compact Modrinth-only launcher is retained.
 
 ## Gameplay efficiency
 
@@ -17,9 +17,9 @@ The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom
 
 ## Download
 
-**[Download Sloth Client 0.0.39 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.39/Sloth-Client-Setup-0.0.39.exe)**
+**[Download Sloth Client 0.0.40 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.40/Sloth-Client-Setup-0.0.40.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.39)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.40)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
