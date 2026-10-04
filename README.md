@@ -10,40 +10,6 @@ Sloth Client is an independent Windows Minecraft launcher and in-game client wit
 
 Removed unrelated Lunar mentions from the developer performance report and in-game update notes. Remaining Lunar references identify settings and file-import compatibility. The compact Modrinth-only launcher is retained.
 
-## 0.0.37 compact launcher and Modrinth only
-
-The launcher opens at 1080 × 700 and can shrink to 960 × 640. Compact controls, smaller mod icons and tighter rows leave more room for content. Modrinth is the only source; CurseForge discovery, key setup, downloads and ZIP import controls are removed. Existing pack instances remain preserved. Modpack and data-pack projects open externally for setup instructions. Normal and 150% text browser checks and 63 launcher captures passed without reported overflow.
-
-## 0.0.36 softer menus and reference-style content browser
-
-The launcher and in-game menus use softer rounded panels and shared Inter typography. Discover Mods opens directly into a slim-sidebar browser with a combined search strip, larger project rows, right-aligned actions and category filters. The dropdown includes Mods, Modpacks, Resource Packs, Shaders and Data Packs. Mods, resource packs and shaders install in the launcher; modpacks/data packs open their project pages for setup instructions. Freelook uses rear third person and immediately restores the prior view on release. Normal/150% browser layout checks and all-perspective synthetic Freelook restoration passed. Physical keyboard, multiplayer and installer execution remain separate checks.
-
-## 0.0.35 Update Client shortcut
-
-Update Client is now a separate sidebar item directly below Settings and above Help. It opens the signed-download and restart-to-install screen. The simplified pink design and instant Freelook release are preserved. Published releases receive a GitHub Actions integrity check with downloadable evidence.
-
-## 0.0.34 simpler Sloth and instant Freelook
-
-The pink launcher has a centred Play button and five main destinations: Play, Downloads, Account, Settings and Help. One in-game menu offers Edit HUD, Crosshair, Features and Settings, with advanced controls under More tools. Features and Settings keep a consistent top navigation. The HUD editor starts with essential controls. Freelook returns immediately when its hold key is released, without a glide or waiting for the next game tick. Saved choices are preserved.
-
-## 0.0.33 simpler Studio and settings
-
-Studio begins with five clear tasks: HUD & appearance, Controls & features, Performance, Saved setups, and Advanced tools. Search remains available on every Studio page, Back returns to the preceding section, and everyday settings appear before detailed options. Feature names open settings; a separate switch enables or disables them. Launcher settings use labeled expandable sections. Saved gameplay choices are preserved.
-
-## 0.0.32 faster Freelook
-
-Freelook starts at 1.25x camera movement speed, with a 0.25x–3x Look speed slider. Normal player aiming sensitivity, Left Alt, pitch limits, inversion and the return animation remain unchanged. Synthetic keyboard dispatch and world/held-item FOV checks passed with the selected managed mod combination and local add-ons; physical keyboard and live multiplayer remain separate checks.
-
-## 0.0.31 safer everyday edits
-
-Selected-HUD reset with Undo, Ctrl+A selection, overlap counts with reused editor measurements, consistent mod dependency warnings in readiness and Health, and a read-only saved-setup comparison that excludes accounts and custom chat text.
-
-## 0.0.30 everyday client assistance
-
-Reviewed HUD arrangement with Undo, shared-key filtering, clearer resource-pack guidance, startup checks with preserved-version recovery, unresolved mod dependency summaries, 150% text options and private support-report review. Storage and mod metadata start excluded from exports. No new recording feature.
-
-Native screen captures, isolated launcher UI checks, pure layout/diagnostic/startup checks, package inspection and Sloth artifact signatures passed. Live multiplayer, physical keyboard input and actual installer/rollback execution remain unverified. Windows trusted publisher signing remains pending.
-
 ## Gameplay efficiency
 
 The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom saves and a damaged-mod inspection crash. Fresh Sloth instances use Unlimited FPS, VSync off and minimized-only idle limiting; existing settings and modpacks are preserved. All nine performance mods are enabled by default. HUD and rendering efficiency changes apply automatically.
@@ -53,7 +19,7 @@ The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom
 
 **[Download Sloth Client 0.0.38 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.38/Sloth-Client-Setup-0.0.38.exe)**
 
-[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.32)
+[Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.38)
 
 **Unsigned development release:** trusted Windows publisher signing is postponed. Windows may display an unknown-publisher or SmartScreen warning. Separate Ed25519 integrity signatures do not replace Windows publisher trust. Install this version manually once to replace older builds with failing update checks. This development build checks for newer releases, downloads and verifies the signed Sloth update feed and installer, then offers Install and restart inside the client. Installation requires explicit confirmation and Minecraft must be closed. Production updates still require trusted Windows publisher signing.
 
@@ -126,8 +92,3 @@ This repository distributes compiled artifacts and documentation. Private develo
 
 Sloth Client is not an official Minecraft product and is not approved by or associated with Mojang, Microsoft or CurseForge.
 
-## 0.0.22 motion and Haunted atmosphere
-
-Lighter bottom-edge mist, smoother page and dialog movement, pointer-responsive Sloth artwork, and more detailed animated creatures with staged reveals and a second advance. Halloween effects and jumpscares remain optional; reduced motion takes priority.
-
-This update received syntax and native build checks, isolated launcher visual review, and release-package integrity verification. No new automated test suites or live multiplayer checks were performed. Windows trusted-publisher signing remains pending.
