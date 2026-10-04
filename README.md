@@ -6,6 +6,10 @@ GitHub checks published installer, feed and inventory signatures and download ha
 
 Sloth Client is an independent Windows Minecraft launcher and in-game client with original pink sloth artwork. Choose your own worlds and multiplayer servers.
 
+## 0.0.36 softer menus and reference-style content browser
+
+The launcher and in-game menus use softer rounded panels and shared Inter typography. Discover Mods opens directly into a slim-sidebar browser with a combined search strip, larger project rows, right-aligned actions and category filters. The dropdown includes Mods, Modpacks, Resource Packs, Shaders and Data Packs. Mods, resource packs and shaders install in the launcher; modpacks/data packs open their project pages for setup instructions. Freelook uses rear third person and immediately restores the prior view on release. Normal/150% browser layout checks and all-perspective synthetic Freelook restoration passed. Physical keyboard, multiplayer and installer execution remain separate checks.
+
 ## 0.0.35 Update Client shortcut
 
 Update Client is now a separate sidebar item directly below Settings and above Help. It opens the signed-download and restart-to-install screen. The simplified pink design and instant Freelook release are preserved. Published releases receive a GitHub Actions integrity check with downloadable evidence.
@@ -39,7 +43,7 @@ The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom
 
 ## Download
 
-**[Download Sloth Client 0.0.35 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.35/Sloth-Client-Setup-0.0.35.exe)**
+**[Download Sloth Client 0.0.36 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.36/Sloth-Client-Setup-0.0.36.exe)**
 
 [Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.32)
 
