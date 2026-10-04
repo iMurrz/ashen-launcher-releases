@@ -6,6 +6,10 @@ GitHub checks published installer, feed and inventory signatures and download ha
 
 Sloth Client is an independent Windows Minecraft launcher and in-game client with original pink sloth artwork. Choose your own worlds and multiplayer servers.
 
+## 0.0.38 import-only client references
+
+Removed unrelated Lunar mentions from the developer performance report and in-game update notes. Remaining Lunar references identify settings and file-import compatibility. The compact Modrinth-only launcher is retained.
+
 ## 0.0.37 compact launcher and Modrinth only
 
 The launcher opens at 1080 × 700 and can shrink to 960 × 640. Compact controls, smaller mod icons and tighter rows leave more room for content. Modrinth is the only source; CurseForge discovery, key setup, downloads and ZIP import controls are removed. Existing pack instances remain preserved. Modpack and data-pack projects open externally for setup instructions. Normal and 150% text browser checks and 63 launcher captures passed without reported overflow.
@@ -47,7 +51,7 @@ The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom
 
 ## Download
 
-**[Download Sloth Client 0.0.37 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.37/Sloth-Client-Setup-0.0.37.exe)**
+**[Download Sloth Client 0.0.38 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.38/Sloth-Client-Setup-0.0.38.exe)**
 
 [Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.32)
 
