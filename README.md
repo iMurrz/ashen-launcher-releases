@@ -2,6 +2,10 @@
 
 Sloth Client is an independent Windows Minecraft launcher and in-game client with original pink sloth artwork. Choose your own worlds and multiplayer servers.
 
+## 0.0.34 simpler Sloth and instant Freelook
+
+The pink launcher has a centred Play button and five main destinations: Play, Downloads, Account, Settings and Help. One in-game menu offers Edit HUD, Crosshair, Features and Settings, with advanced controls under More tools. Features and Settings keep a consistent top navigation. The HUD editor starts with essential controls. Freelook returns immediately when its hold key is released, without a glide or waiting for the next game tick. Saved choices are preserved.
+
 ## 0.0.33 simpler Studio and settings
 
 Studio begins with five clear tasks: HUD & appearance, Controls & features, Performance, Saved setups, and Advanced tools. Search remains available on every Studio page, Back returns to the preceding section, and everyday settings appear before detailed options. Feature names open settings; a separate switch enables or disables them. Launcher settings use labeled expandable sections. Saved gameplay choices are preserved.
@@ -27,7 +31,7 @@ The 0.0.29 audit removes render-thread performance-file writes, unnecessary Zoom
 
 ## Download
 
-**[Download Sloth Client 0.0.33 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.33/Sloth-Client-Setup-0.0.33.exe)**
+**[Download Sloth Client 0.0.34 for Windows](https://github.com/iMurrz/sloth-client-releases/releases/download/v0.0.34/Sloth-Client-Setup-0.0.34.exe)**
 
 [Release notes and integrity signatures](https://github.com/iMurrz/sloth-client-releases/releases/tag/v0.0.32)
 
