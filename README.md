@@ -1,5 +1,9 @@
 # Sloth Client
 
+[![Release integrity](https://github.com/iMurrz/sloth-client-releases/actions/workflows/release-integrity.yml/badge.svg)](https://github.com/iMurrz/sloth-client-releases/actions/workflows/release-integrity.yml)
+
+GitHub checks published installer, feed and inventory signatures and download hashes. Open the badge for the verified version and evidence. This check verifies file integrity and authenticity; Windows publisher signing and gameplay validation are separate.
+
 Sloth Client is an independent Windows Minecraft launcher and in-game client with original pink sloth artwork. Choose your own worlds and multiplayer servers.
 
 ## 0.0.34 simpler Sloth and instant Freelook
